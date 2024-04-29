@@ -14,7 +14,8 @@ Initialize directory with terraform.
   terraform plan
   terraform apply
 
-Once terraform successfully applied you will see the message below
+Once terraform is successfully applied, you will see the message below
+
   Outputs:
   kubeconfig_path_do = "./kubeconfig"
 
