@@ -17,6 +17,7 @@ Initialize directory with terraform.
 Once terraform is successfully applied, you will see the message below
 
   Outputs:
+  
   kubeconfig_path_do = "./kubeconfig"
 
 ![image](https://github.com/amolvkharche/digitalOceank8s/assets/83961171/18e0bcd9-a391-4980-9734-06876f52796c)
