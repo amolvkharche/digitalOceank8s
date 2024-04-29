@@ -3,9 +3,9 @@ This repo is to create Kubernetes cluster on Digital Ocean.
 Create your own terraform.tfvars and add your token from Digital Ocean(API-> Tokens->Generate New Token).
 
  
-  amol@jumpsrv:~# cat terraform.tfvars
-  do_token = "blablablahhhhhhhhhhhhh"
-  amol@jumpsrv:~#
+  amol@~# cat terraform.tfvars
+   do_token = "blablablahhhhhhhhhhhhh"
+  amol@j~#
   
 Initialize directory with terraform.
   terraform init
