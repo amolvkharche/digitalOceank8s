@@ -23,4 +23,4 @@ Once terraform successfully applied you will see the message below
 This is your kubecofig file to access your Digital Ocean K8s cluster.
    export KUBECONFIG=$PWD/kubeconfig
 
---------------- Thanks --------------------------------
+
