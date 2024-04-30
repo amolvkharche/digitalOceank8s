@@ -1,6 +1,6 @@
 variable "cluster_name" {
   type    = string
-  default = "amolk-k8s"
+  default = "k8s-cluster"
 }
 variable "region" {
   type    = string
