@@ -10,9 +10,11 @@ Create your own terraform.tfvars and add your token from Digital Ocean(API-> Tok
   amol@jump~#
   
 Initialize directory with terraform.
+
   terraform init
   terraform plan
   terraform apply
+  
 
 Once terraform is successfully applied, you will see the message below
 
