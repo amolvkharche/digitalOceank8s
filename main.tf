@@ -1,10 +1,10 @@
-resource "digitalocean_kubernetes_cluster" "amolk-k8s" {
+resource "digitalocean_kubernetes_cluster" "k8s" {
   name    = var.cluster_name
   region  = var.region
   version = var.k8s_version
   tags = ["amolk"]
   node_pool {
-    name       = "amolk-node-pool"
+    name       = "${var.cluster_name}-node-pool"
     size       = "s-4vcpu-8gb"
     auto_scale = true
     min_nodes  = 2
@@ -13,7 +13,7 @@ resource "digitalocean_kubernetes_cluster" "amolk-k8s" {
 }
 
 resource "local_file" "kubeconfig" {
-  content  = digitalocean_kubernetes_cluster.amolk-k8s.kube_config.0.raw_config
+  content  = digitalocean_kubernetes_cluster.k8s.kube_config.0.raw_config
   filename = "${path.module}/kubeconfig"
   
 }
