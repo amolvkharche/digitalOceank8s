@@ -12,7 +12,9 @@ Create your own terraform.tfvars and add your token from Digital Ocean(API-> Tok
 Initialize directory with terraform.
 
   terraform init
+  
   terraform plan
+  
   terraform apply
   
 
