@@ -12,7 +12,7 @@ variable "size" {
 }
 variable "image" {
   type    = string
-  default = "ubuntu-20-04-x64"
+  default = "ubuntu-24-04-x64"
 }
 variable "do_token" {
   type      = string
