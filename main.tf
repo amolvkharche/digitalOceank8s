@@ -2,7 +2,7 @@ resource "digitalocean_kubernetes_cluster" "k8s" {
   name    = var.cluster_name
   region  = var.region
   version = var.k8s_version
-  tags = ["amolk"]
+  tags = ["Test-cluster"]
   node_pool {
     name       = "${var.cluster_name}-node-pool"
     size       = "s-4vcpu-8gb"
