@@ -1,13 +1,6 @@
 This repo is to create Kubernetes cluster on Digital Ocean.
 
-Create your own `terraform.tfvars` and add your token from **Digital Ocean(API-> Tokens->Generate New Token).**
-
- 
-  amol@jump~# cat terraform.tfvars
-  
-   do_token = "blablablahhhhhhhhhhhhh"
-  
-  amol@jump~#
+Rename `terraform.tfvars.example` with `terraform.tfvars` and add your token from **Digital Ocean(API-> Tokens->Generate New Token).**
 
 Additionally, you can modify `terraform.tfvars` by adding cluster_name, region, node size , K8s version, and node image.
 you can find the latest tag here https://slugs.do-api.dev/
